@@ -7672,3 +7672,9 @@ a, img {
 		padding: 0;
 	}
 }
+
+/* Mew Styles */
+span.timer.h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
