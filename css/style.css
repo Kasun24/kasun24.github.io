@@ -7678,3 +7678,6 @@ span.timer.h3 {
     font-size: 40px;
     font-weight: 800;
 }
+a.btn-custom {
+    font-family: unset;
+}
