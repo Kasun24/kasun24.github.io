@@ -7681,3 +7681,7 @@ span.timer.h3 {
 a.btn-custom {
     font-family: unset;
 }
+.proj-link:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
