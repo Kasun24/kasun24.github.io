@@ -7671,6 +7671,9 @@ a, img {
 		margin: 0;
 		padding: 0;
 	}
+	.top-spc{
+		display: none;
+	}
 }
 
 /* Mew Styles */
