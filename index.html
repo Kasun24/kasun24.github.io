@@ -1,896 +1,491 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="utf-8" />
-  <title>Kasun Sampath</title>
+  <title>Kasun Sampath | Senior Software Engineer</title>
   <link rel="icon" type="image/x-icon" href="/images/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Kasun Sampath portfolio website" />
-  <meta name="keywords"
-    content="kasun sampath, kasun, portfolio, cv, light, minimalist, modern, personal, personal profile, portfolio, resume, vcard, virtual card" />
-  <meta name="author" content="Kasun Sampath" />
+  <meta name="description" content="Kasun Sampath portfolio website - Senior Software Engineer" />
 
-  <!-- CSS Files
-    ================================================== -->
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="css/animate.css" type="text/css" />
-  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
-  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-  <link rel="stylesheet" href="css/supersized.css" type="text/css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css" />
-
-  <!-- background -->
-  <link rel="stylesheet" href="css/bg.css" type="text/css" />
-
-  <!-- color scheme -->
-  <link rel="stylesheet" href="css/colors/scheme-4.css" type="text/css" />
 </head>
 
-<body id="homepage" class="custom-bg-1">
-  <div id="wrapper">
-    <!-- header begin -->
-    <header class="header-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <!-- logo begin -->
-            <div id="logo">
-              <a href="#wrapper">
-                <!-- <img class="logo-main" src="images/ks.png" alt="" /> -->
-                <h1>PORTFOLIO</h1>
-              </a>
-            </div>
-            <!-- logo close -->
+<body>
+  <!-- Animated Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
 
-            <!-- small button begin -->
-            <span id="menu-btn"></span>
-            <!-- small button close -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4 text-primary" href="#hero">KASUN.</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="fa-solid fa-bars fa-lg" style="color: var(--text-color);"></i>
+      </button>
 
-            <!-- mainmenu begin -->
-            <nav>
-              <ul id="mainmenu">
-                <li>
-                  <a class="active" href="#top">Home<span></span></a>
-                </li>
-                <li>
-                  <a href="#section-about">About<span></span></a>
-                </li>
-                <li>
-                  <a href="#section-services">Services<span></span></a>
-                </li>
-                <li>
-                  <a href="#section-portfolio">Portfolio<span></span></a>
-                </li>
-                <li>
-                  <a href="#section-experiences">Experiences<span></span></a>
-                </li>
-                <li>
-                  <a href="#section-contact">Contact Me<span></span></a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <!-- mainmenu close -->
-        </div>
-      </div>
-    </header>
-    <!-- header close -->
-
-    <!-- content begin -->
-    <div id="content" class="no-bg no-bottom no-top text-light">
-      <div id="particles-js" class="fixed"></div>
-      <div id="top"></div>
-
-      <!-- section begin -->
-      <section id="section-hero" class="no-bg full-height relative no-top no-bottom text-white"
-        data-stellar-background-ratio=".2">
-        <div class="overlay-bg t30">
-          <div class="center-y fadeScroll relative" data-scroll-speed="4">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-8">
-                  <div class="spacer-double top-spc"></div>
-                  <h5 class="mb20">Introduction</h5>
-
-                  <div class="h1_big text-white">
-                    My Name Kasun Sampath, <br />I'm a <br>
-                    <div class="typed-strings">
-                      <p>Designer</p>
-                      <p>Programmer</p>
-                      <p>Developer</p>
-                    </div>
-                    <div class="typed"></div>
-                  </div>
-
-                  <div class="spacer-double"></div>
-                  <a target="_blank" href="docs/resume.pdf" class="btn btn-custom color-2">Download CV</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section close -->
-
-      <!-- section begin -->
-      <section id="section-about" class="no-bg no-top no-bottom">
-        <div class="overlay-bg t30">
-          <div class="container relative">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h5><span class="id-color">About Me</span></h5>
-                <h2>Welcome To My Site</h2>
-              </div>
-              <div class="col-md-8 col-md-offset-2 text-center">
-                <p>
-                  I am a Full Stack Web Developer familiar with wide range of
-                  programming utilities, languages and frameworks.
-                  Knowledgeable of backend and frontend development
-                  requirements. I love to get new experiences and always learn
-                  from my surroundings. I am looking forward to any
-                  opportunities and challenges. You can check it through
-                  portfolio section on this website.
-                  <br>
-                </p>
-              </div>
-            </div>
-
-            <div class="spacer-single"></div>
-
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card">
-                  <p class="skill_title">Programming Languages</p>
-                  <ul>
-                    <li>PHP</li>
-                    <li>JavaScrip</li>
-                    <li>HTML/CSS</li>
-                    <li>Python</li>
-                    <li>Java</li>
-                  </ul>
-                </div>
-                <br>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card">
-                  <p class="skill_title">Frameworks and Libraries</p>
-                  <ul>
-                    <li>Laravel</li>
-                    <li>WordPress</li>
-                    <li>React</li>
-                    <li>jQuery</li>
-                    <li>Bootstrap</li>
-                  </ul>
-                </div>
-                <br>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card">
-                  <p class="skill_title">Tools & Technologies</p>
-                  <ul>
-                    <li>Git and GitHub</li>
-                    <li>JSON and REST API</li>
-                    <li>Linux Proficiency</li>
-                    <li>Cloud Computing Concepts</li>
-                    <li>Jira Proficiency</li>
-                  </ul>
-                </div>
-                <br>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card">
-                  <p class="skill_title">Databases</p>
-                  <ul>
-                    <li>MySQL</li>
-                    <li>NoSQL</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card">
-                  <p class="skill_title">Other Skills</p>
-                  <ul>
-                    <li>Cybersecurity Strategies and Tools</li>
-                    <li>SEO Implementation</li>
-                    <li>Client Engagement</li>
-                    <li>Leadership in Team Settings</li>
-                    <li>Server Configuration and Management</li>
-                    <li>Networking Technology Management</li>
-                  </ul>
-                </div>
-                <!-- <div class="skill-bar style-2">
-                  <h5>Graphic Design</h5>
-                  <div class="de-progress">
-                    <div class="value"></div>
-                    <div class="progress-bar" data-value="70%"></div>
-                  </div>
-                </div> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section close -->
-
-      <!-- section begin -->
-      <section id="section-services" class="no-bg no-top no-bottom text-light" data-stellar-background-ratio=".2">
-        <div class="overlay-bg t30">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h5><span class="id-color">My Services</span></h5>
-                <h2>I'm Available For Hire</h2>
-
-                <div id="carousel-3" class="sequence" data-anim="fadeInUp">
-                  <!-- feature box begin -->
-                  <div class="feature-box col-md-4 carousel-item sq-item wow">
-                    <div class="inner">
-                      <i class="icon_lightbulb_alt id-color"></i>
-                      <div class="text">
-                        <h3>Design and Development</h3>
-                        Creating visually appealing and functional websites
-                        that align with the client's requirements and goals
-                        with recommendations.
-                      </div>
-                    </div>
-                  </div>
-                  <!-- feature box close -->
-                  <!-- feature box begin -->
-                  <div class="feature-box col-md-4 carousel-item sq-item wow">
-                    <div class="inner">
-                      <i class="icon_datareport id-color"></i>
-                      <div class="text">
-                        <h3>Performance Optimization</h3>
-                        Optimizing website performance by minimizing loading
-                        times, improving caching strategies, and implementing
-                        best practices for faster page rendering.
-                      </div>
-                    </div>
-                  </div>
-                  <!-- feature box close -->
-
-                  <!-- feature box begin -->
-                  <div class="feature-box col-md-4 carousel-item sq-item wow">
-                    <div class="inner">
-                      <i class="icon_pencil-edit id-color"></i>
-                      <div class="text">
-                        <h3>Maintenance and Support</h3>
-                        Providing ongoing maintenance, updates, bug fixes, and
-                        technical support to ensure the website or web
-                        application runs smoothly and securely.
-                      </div>
-                    </div>
-                  </div>
-                  <!-- feature box close -->
-
-                  <!-- feature box begin -->
-                  <div class="feature-box col-md-4 carousel-item sq-item wow">
-                    <div class="inner">
-                      <i class="icon_search id-color"></i>
-                      <div class="text">
-                        <h3>Analytics and SEO</h3>
-                        Integrating analytics tools, tracking user behavior,
-                        and implementing optimization techniques to improve
-                        website visibility and performance.
-                      </div>
-                    </div>
-                  </div>
-                  <!-- feature box close -->
-
-                  <!-- feature box begin -->
-                  <div class="feature-box col-md-4 carousel-item sq-item wow">
-                    <div class="inner">
-                      <i class="icon_tag_alt id-color"></i>
-                      <div class="text">
-                        <h3>Security and Pen-Testing</h3>
-                        Conducting security assessments, implementing security
-                        measures, and performing penetration testing to
-                        protect websites.
-                      </div>
-                    </div>
-                  </div>
-                  <!-- feature box close -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section close -->
-
-      <!-- section begin -->
-      <section id="section-portfolio" class="no-bg no-top no-bottom">
-        <div class="overlay-bg t30">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h5><span class="id-color">Portfolio</span></h5>
-                <h2>I Love What I Do</h2>
-              </div>
-
-              <div class="col-md-12 text-center mt50">
-                <ul id="filters">
-                  <li>
-                    <a href="#" data-filter="*" class="selected">all projects</a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".php">PHP</a>
-                  </li>
-                  <li><a href="#" data-filter=".cms">CMS</a></li>
-                  <li>
-                    <a href="#" data-filter=".laravel">Laravel</a>
-                  </li>
-                  <li><a href="#" data-filter=".mobile">Mobile</a></li>
-                </ul>
-
-                <div id="gallery" class="gallery full-gallery de-gallery pf_full_width pf_3_cols grid sequence">
-                  <div class="item php website gallery-item">
-                    <div class="picframe wow">
-                      <a class="image-popup" href="images/portfolio/php_1.png">
-                        <span class="overlay">
-                          <span class="pf_text">
-                            <span class="project-name">LMS</span>
-                          </span>
-                        </span>
-                        <img src="images/portfolio/php_1.png" alt="" />
-                      </a>
-                      <a class="proj-link" target="_blank" href="https://www.smartstudent.lk/">Project Link</a>
-                    </div>
-                  </div>
-                  <div class="item php website gallery-item">
-                    <div class="picframe wow">
-                      <a class="image-popup" href="images/portfolio/php_2.png">
-                        <span class="overlay">
-                          <span class="pf_text">
-                            <span class="project-name">Report System</span>
-                          </span>
-                        </span>
-                        <img src="images/portfolio/php_2.png" alt="" />
-                      </a>
-                      <a class="proj-link" target="_blank"
-                        href="https://github.com/Kasun24/Laravel-register-app">Project Link</a>
-                    </div>
-                  </div>
-
-                  <div class="item cms gallery-item">
-                    <div class="picframe wow">
-                      <a class="image-popup" href="images/portfolio/stjudetravels.png">
-                        <span class="overlay">
-                          <span class="pf_text">
-                            <span class="project-name">St.Jude Travels</span>
-                          </span>
-                        </span>
-                        <img src="images/portfolio/stjudetravels.png" alt="" />
-                      </a>
-                      <a class="proj-link" target="_blank" href="https://stjudetravels.com/">Project Link</a>
-                    </div>
-                  </div>
-                  <div class="item cms gallery-item">
-                    <div class="picframe wow">
-                      <a class="image-popup" href="images/portfolio/wp.png">
-                        <span class="overlay">
-                          <span class="pf_text">
-                            <span class="project-name">Information Site</span>
-                          </span>
-                        </span>
-                        <img src="images/portfolio/wp.png" alt="" />
-                      </a>
-                      <a class="proj-link" target="_blank" href="https://www.craftwerkbeers.com/">Project Link</a>
-                    </div>
-                  </div>
-                  <div class="item cms gallery-item">
-                    <div class="picframe wow">
-                      <a class="image-popup" href="images/portfolio/ara.png">
-                        <span class="overlay">
-                          <span class="pf_text">
-                            <span class="project-name">Asian Recruitment Agency</span>
-                          </span>
-                        </span>
-                        <img src="images/portfolio/ara.png" alt="" />
-                      </a>
-                      <a class="proj-link" target="_blank" href="https://kasun.yogeemedia.cloud/ara/">Project Link</a>
-                    </div>
-                  </div>
-
-                  <div class="item laravel gallery-item">
-                    <div class="picframe wow">
-                      <a class="image-popup" href="images/portfolio/laravel.png">
-                        <span class="overlay">
-                          <span class="pf_text">
-                            <span class="project-name">Ecommerce Website</span>
-                          </span>
-                        </span>
-                        <img src="images/portfolio/laravel.png" alt="" />
-                      </a>
-                      <a class="proj-link" target="_blank" href="https://github.com/Kasun24/sellold">Project Link</a>
-                    </div>
-                  </div>
-                  <div class="item laravel gallery-item">
-                    <div class="picframe wow">
-                      <a class="image-popup" href="images/portfolio/bloomskin.png">
-                        <span class="overlay">
-                          <span class="pf_text">
-                            <span class="project-name">Bloom Skin Clinic</span>
-                          </span>
-                        </span>
-                        <img src="images/portfolio/bloomskin.png" alt="" />
-                      </a>
-                      <a class="proj-link" target="_blank" href="https://app.bloomskin.clinic/">Project Link</a>
-                    </div>
-                  </div>
-
-                  <div class="item mobile gallery-item">
-                    <div class="picframe wow">
-                      <a class="image-popup" href="images/portfolio/mobile.png">
-                        <span class="overlay">
-                          <span class="pf_text">
-                            <span class="project-name">Information App</span>
-                          </span>
-                        </span>
-                        <img src="images/portfolio/mobile.png" alt="" />
-                      </a>
-                      <a class="proj-link" target="_blank" href="https://github.com/Kasun24/COVID19LiveUpdates">Project
-                        Link</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section close -->
-
-      <section id="section-experiences" class="no-bg no-top no-bottom text-light" data-stellar-background-ratio=".2">
-        <div class="overlay-bg t30">
-          <div class="container">
-            <div class="padding20 wow fadeInRight">
-              <h2 class="text-center mb-3">Experiences</h2>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2019 - Now</h5>
-                    <h3>Freelancer</h3>
-                    <p>
-                      Having gained extensive experience in gathering client
-                      requirements, I am adept at fulfilling their needs to
-                      their utmost satisfaction.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2021 - Now</h5>
-                    <h3>Full Stack Web Developer at Yogeemedia (Pvt) Ltd</h3>
-                    <ul>
-                      <li>
-                        Developed efficient and maintainable software
-                        according to business objectives and needs of clients.
-                      </li>
-                      <li>
-                        Maintained complex technology infrastructure and
-                        collaborated with product team to implement new
-                        features and strategically plan for future products.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2021 - 2021</h5>
-                    <h3>Web Developer at Global EMS (Pvt) Ltd</h3>
-                    <ul>
-                      <li>
-                        Planned website development, converting mockups into
-                        usable web presence.
-                      </li>
-                      <li>
-                        Coded websites using PHP, MySQL, HTML, CSS,
-                        JavaScript, and jQuery languages.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2017 - 2020</h5>
-                    <h3>IT Officer at Susipvan Higher Education (Pvt) Ltd</h3>
-                    <ul>
-                      <li>
-                        Demonstrated familiarity with latest hardware,
-                        software and networking technology.
-                      </li>
-                      <li>
-                        Managed network and system performance, conducting
-                        troubleshooting and maintenance.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="padding20 wow fadeInRight">
-              <h2 class="text-center mb-3">Education</h2>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2018 - 2022</h5>
-                    <h3>
-                      Higher National Diploma in Information Technology |
-                      SLIATE
-                    </h3>
-                    <ul>
-                      <li>Complete Final year Examination.</li>
-                      <li>Specialized in web application development.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2007 - 2015</h5>
-                    <h3>
-                      Advanced Level Examination | Bandaranayaka College -
-                      Gampaha
-                    </h3>
-                    <ul>
-                      <li>Passed in Physical Science Stream.</li>
-                      <li>Team working and leadership experiences.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="padding20 wow fadeInRight">
-              <h2 class="text-center mb-3">Certificates</h2>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2024</h5>
-                    <h3>Google Cybersecurity Professional Certificate</h3>
-                    <p>8 Courses | 6 Month Duration</p>
-                    <a class="btn btn-custom" target="_blank" href="https://coursera.org/share/27375690dd93a792ae0d751cad7521ee">View Certificate</a>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2022</h5>
-                    <h3>
-                      JavaScript Algorithms and Data Structures |
-                      FreeCodeCamp
-                    </h3>
-                    <p>
-                      Developer Certification, representing approximately
-                      300 hours of coursework.
-                    </p>
-                    <a class="btn btn-custom" target="_blank"
-                      href="https://www.freecodecamp.org/certification/Kasun24/javascript-algorithms-and-data-structures">View
-                      Certificate</a>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2023</h5>
-                    <h3>
-                      Diploma in Python with Data Science and Machine
-                      Learning | Udemy
-                    </h3>
-                    <p>
-                      Python Bootcamp with Data Science & Machine Learning
-                      with bonus Java series
-                    </p>
-                    <a class="btn btn-custom" target="_blank"
-                      href="https://www.udemy.com/certificate/UC-05e00a17-e5ed-4fa9-8e41-1963aa6c63bf/">View
-                      Certificate</a>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="exp-box">
-                    <h5>2023</h5>
-                    <h3>Ethical Hacking and Cyber Security</h3>
-                    <p>63 Hours | 254 Lectures</p>
-                    <a class="btn btn-custom" target="_blank" href="/docs/Ethical_Hacking.pdf">View Certificate</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section close -->
-
-      <!-- section begin -->
-      <section id="section-testimonial" class="no-bg no-top no-bottom">
-        <div class="overlay-bg t30">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h5><span class="id-color">Testimonials</span></h5>
-                <h2>What They Says</h2>
-              </div>
-
-              <div id="testimonial-carousel" class="de_carousel sequence" data-wow-delay=".3s">
-                <div class="col-md-6 item sq-item wow">
-                  <div class="de_testi opt-2">
-                    <blockquote>
-                      <div class="de_testi_by">
-                        <img src="images/people/fiverr.png" class="img-circle" alt="" />
-                        <span>Fiverr Client</span>
-                      </div>
-                      <p>
-                        "Outstanding WordPress Issue Fixer. I had an
-                        exceptional experience with a WordPress issue fixer.
-                        Their technical expertise, prompt communication, and
-                        dedication to customer satisfaction exceeded my
-                        expectations..."
-                      </p>
-                    </blockquote>
-                  </div>
-                </div>
-
-                <div class="col-md-6 item sq-item wow">
-                  <div class="de_testi opt-2">
-                    <blockquote>
-                      <div class="de_testi_by">
-                        <img src="images/people/fiverr.png" class="img-circle" alt="" />
-                        <span>Fiverr Client</span>
-                      </div>
-                      <p>
-                        "I had an incredible experience working with this
-                        writer! Their communication was top-notch, and they
-                        were so patient with all of my requests. I really
-                        appreciated the unlimited revisions..."
-                      </p>
-                    </blockquote>
-                  </div>
-                </div>
-
-                <div class="col-md-6 item sq-item wow">
-                  <div class="de_testi opt-2">
-                    <blockquote>
-                      <div class="de_testi_by">
-                        <img src="images/people/fiverr.png" class="img-circle" alt="" />
-                        <span>Fiverr Client</span>
-                      </div>
-                      <p>
-                        "I was thoroughly impressed with his technical
-                        expertise and professionalism, and it was clear that
-                        he was dedicated to providing high-quality work for
-                        his clients..."
-                      </p>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section close -->
-
-      <!-- section begin -->
-      <section id="section-fun-facts" class="pt60 pb60 text-light bg-gradient">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 wow fadeIn" data-wow-delay="0">
-              <div class="de_count">
-                <h3>
-                  <span class="timer h3" data-to="4" data-speed="2500">0</span>
-                  +
-                </h3>
-                <span>Years of Working Experiences</span>
-              </div>
-            </div>
-
-            <div class="col-md-3 wow fadeIn" data-wow-delay=".25s">
-              <div class="de_count">
-                <h3>
-                  <span class="timer h3" data-to="50" data-speed="2500">0</span>
-                  +
-                </h3>
-                <span>Individual Projects Done</span>
-              </div>
-            </div>
-
-            <div class="col-md-3 wow fadeIn" data-wow-delay=".5s">
-              <div class="de_count">
-                <h3>
-                  <span class="timer h3" data-to="20" data-speed="2500">0</span>
-                  +
-                </h3>
-                <span>Satisfied Customers</span>
-              </div>
-            </div>
-
-            <div class="col-md-3 wow fadeIn" data-wow-delay=".75s">
-              <div class="de_count">
-                <h3>
-                  <span class="timer h3" data-to="100" data-speed="2500">0</span>
-                  +
-                </h3>
-                <span>Contributed Projects</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section close -->
-
-      <!-- section begin -->
-      <section id="section-contact" class="no-bg no-top no-bottom">
-        <div class="overlay-bg t30">
-          <div class="container">
-            <div class="row">
-              <!-- <div class="col-md-12 text-center">
-                            <h5><span class="id-color">Have Question?</span></h5>
-                            <h2>Contact Me Now</h2>
-                        </div> -->
-
-              <div class="col-md-8 col-md-offset-2 wow fadeInUp">
-                <!-- <div class="row">
-                                <form name="contactForm" id='contact_form' method="post" action='email.php'>
-                                    <div class="col-md-6">
-                                        <div class="field-set">
-                                            <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
-                                            <div class="line-fx"></div>
-                                        </div>
-
-                                        <div class="field-set">
-                                            <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
-                                            <div class="line-fx"></div>
-                                        </div>
-
-                                        <div class="field-set">
-                                            <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
-                                            <div class="line-fx"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="field-set">
-                                            <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
-                                            <div class="line-fx"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="spacer-single"></div>
-
-                                    <div class="col-md-12 text-center">
-                                        <div id='submit'>
-                                            <input type='submit' id='send_message' value='Submit Form' class="btn btn-custom color-2">
-                                        </div>
-                                        <div id='mail_success' class='success'>Your message has been sent successfully.</div>
-                                        <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
-                                    </div>
-                                </form>
-                            </div> -->
-
-                <!-- <div class="spacer-double"></div> -->
-
-                <div class="row text-center wow fadeInUp">
-                  <div class="col-md-6">
-                    <div class="wm-1"></div>
-                    <i class="icon_mobile id-color size40 mb20"></i>
-                    <h6 class="id-color">Call Me</h6>
-                    <a href="tel:+94773842820">
-                      <h4>+94 77 384 2820</h4>
-                    </a>
-                  </div>
-
-                  <!-- <div class="col-md-4">
-                      <div class="wm-1"></div>
-                      <i class="icon_house_alt id-color size40 mb20"></i>
-                      <h6 class="id-color">Address</h6>
-                      <h4>Collins Street West, London, UK</h4>
-                    </div> -->
-
-                  <div class="col-md-6">
-                    <div class="wm-1"></div>
-                    <i class="icon_mail_alt id-color size40 mb20"></i>
-                    <h6 class="id-color">Email Me</h6>
-                    <a href="mailto:kasun961224@gmail.com">
-                      <h4>kasun961224@gmail.com</h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!-- content close -->
-
-    <!-- footer begin -->
-    <footer>
-      <div class="container text-center text-light">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="social-icons big">
-              <a target="_blank" href="https://wa.me/94773842820"><i class="fa fa-whatsapp fa-lg"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/in/kasun-sampath-1932241b3/"><i
-                  class="fa fa-linkedin fa-lg"></i></a>
-              <a target="_blank" href="https://github.com/Kasun24"><i class="fa fa-github fa-lg"></i></a>
-              <a target="_blank" href="https://join.skype.com/invite/xE4DxdLaa5Mg"><i class="fa fa-skype fa-lg"></i></a>
-              <a target="_blank" href="https://web.facebook.com/profile.php?id=100023700336749"><i
-                  class="fa fa-facebook fa-lg"></i></a>
-              <a target="_blank" href="https://www.instagram.com/kasun24_/"><i class="fa fa-instagram fa-lg"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="subfooter">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-md-12">
-              &copy; Copyright
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              - By <a target="_blank" href="https://github.com/Kasun24">Kasun24</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer close -->
-
-    <a href="#" id="back-to-top"></a>
-    <div id="preloader">
-      <div class="s1">
-        <span></span>
-        <span></span>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Featured</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <button id="theme-toggle" class="theme-switch" aria-label="Toggle theme">
+              <i id="theme-icon" class="fa-solid fa-sun"></i>
+            </button>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <!-- Javascript Files
-    ================================================== -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.isotope.min.js"></script>
-  <script src="js/easing.js"></script>
-  <script src="js/owl.carousel.js"></script>
-  <script src="js/jquery.countTo.js"></script>
-  <script src="js/validation.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/enquire.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.plugin.js"></script>
-  <script src="js/typed.js"></script>
-  <script src="js/typed.js"></script>
-  <script src="js/typed-custom.js"></script>
-  <script src="js/supersized.3.2.7.min.js"></script>
-  <script src="js/particles.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/designesia.js"></script>
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container text-center pt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <p class="text-uppercase tracking-wide mb-3 text-primary fw-semibold" style="letter-spacing: 2px;">Hello,
+            World!</p>
+          <h1 class="display-3 fw-bold mb-4">I'm Kasun Sampath</h1>
+          <div class="h3 mb-5 fw-normal text-muted" style="min-height: 40px;">
+            <span class="typed"></span>
+          </div>
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="docs/kasun_sampath_cv.pdf" class="btn btn-custom px-4 py-2" target="_blank">
+              <i class="fa-solid fa-file-pdf me-2"></i>Download CV
+            </a>
+            <a href="#portfolio" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold">
+              View Expertise
+            </a>
+          </div>
+          <div class="mt-5 d-flex justify-content-center gap-3 fs-4" id="social-links-hero">
+            <a href="https://www.linkedin.com/in/kasun24/" target="_blank" class="text-muted theme-switch px-2"
+              aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Kasun24" target="_blank" class="text-muted theme-switch px-2"
+              aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/kasun.sampath.430009/" target="_blank"
+              class="text-muted theme-switch px-2" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/kasun24_/" target="_blank" class="text-muted theme-switch px-2"
+              aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@kasun24_" target="_blank" class="text-muted theme-switch px-2"
+              aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="mailto:kasun961224@gmail.com" class="text-muted theme-switch px-2" aria-label="Email"><i
+                class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script type="text/javascript">
-    jQuery(function ($) {
-      $.supersized({
-        // Functionality
-        slide_interval: 2000, // Length between transitions
-        transition: 1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-        transition_speed: 1000, // Speed of transition
+  <!-- About & Skills Section -->
+  <section id="about">
+    <div class="container">
+      <div class="text-center section-title">
+        <h2 class="display-5">About & Skills</h2>
+      </div>
 
-        // Components
-        slide_links: "blank", // Individual links for each slide (Options: false, 'num', 'name', 'blank')
-        slides: [
-          // Slideshow Images
-          { image: "images/background/back_1.jpg", url: "" },
-          { image: "images/background/back_2.jpg", url: "" },
-          { image: "images/background/back_3.jpg", url: "" },
-        ],
-      });
-    });
-  </script>
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-10 mx-auto text-start">
+          <p class="fs-5 text-muted lh-lg">
+            Senior Software Engineer with over 5 years of professional software development experience and 7+ years
+            within the IT industry. Highly proficient in designing, developing, and maintaining scalable web
+            applications and complex backend systems. Expert in full-stack ecosystems, including PHP/Laravel and
+            JavaScript frameworks (Vue/React), with a specialized focus on RESTful API architecture and secure software
+            development practices.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-4">
+        <!-- Tech Stack Cards -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass p-4 h-100">
+            <div class="mb-3 text-primary"><i class="fa-solid fa-code fa-2x"></i></div>
+            <h4 class="mb-3">Languages & Frameworks</h4>
+            <div>
+              <span class="skill-tag">PHP (Laravel, WordPress)</span>
+              <span class="skill-tag">JavaScript (ES6+, Vue, React)</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">HTML5 / CSS3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass p-4 h-100">
+            <div class="mb-3 text-primary"><i class="fa-solid fa-server fa-2x"></i></div>
+            <h4 class="mb-3">Architecture & APIs</h4>
+            <div>
+              <span class="skill-tag">RESTful APIs</span>
+              <span class="skill-tag">Microservices</span>
+              <span class="skill-tag">MVC pattern</span>
+              <span class="skill-tag">Data Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass p-4 h-100">
+            <div class="mb-3 text-primary"><i class="fa-solid fa-database fa-2x"></i></div>
+            <h4 class="mb-3">Database Management</h4>
+            <div>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">SQLite</span>
+              <span class="skill-tag">NoSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass p-4 h-100">
+            <div class="mb-3 text-primary"><i class="fa-solid fa-cloud fa-2x"></i></div>
+            <h4 class="mb-3">DevOps & Infrastructure</h4>
+            <div>
+              <span class="skill-tag">Linux Expertise</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">CI/CD Pipelines</span>
+              <span class="skill-tag">Bash Scripting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass p-4 h-100">
+            <div class="mb-3 text-primary"><i class="fa-solid fa-shield-halved fa-2x"></i></div>
+            <h4 class="mb-3">Cybersecurity</h4>
+            <div>
+              <span class="skill-tag">Web Vulnerability</span>
+              <span class="skill-tag">Defensive Programming</span>
+              <span class="skill-tag">Network Security</span>
+              <span class="skill-tag">Burp Suite</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="glass p-4 h-100">
+            <div class="mb-3 text-primary"><i class="fa-solid fa-chart-line fa-2x"></i></div>
+            <h4 class="mb-3">Data Science & ML</h4>
+            <div>
+              <span class="skill-tag">Business Intelligence</span>
+              <span class="skill-tag">Machine Learning</span>
+              <span class="skill-tag">Bioinformatics</span>
+              <span class="skill-tag">Geo-Spatial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <div class="text-center section-title">
+        <h2 class="display-5">What I Do</h2>
+      </div>
+
+      <div class="row g-4 mt-2">
+        <div class="col-md-6 col-lg-3">
+          <div class="glass p-4 text-center h-100 portfolio-card">
+            <i class="fa-solid fa-laptop-code fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Web Development</h5>
+            <p class="text-muted small">Scalable backends, beautiful responsive frontends with modern frameworks.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="glass p-4 text-center h-100 portfolio-card">
+            <i class="fa-solid fa-bolt fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Optimization</h5>
+            <p class="text-muted small">Minimizing loading times and caching strategies for faster rendering.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="glass p-4 text-center h-100 portfolio-card">
+            <i class="fa-solid fa-user-shield fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Security Audits</h5>
+            <p class="text-muted small">Assessments and penetration testing to secure applications.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="glass p-4 text-center h-100 portfolio-card">
+            <i class="fa-solid fa-microchip fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Data & Analytics</h5>
+            <p class="text-muted small">Analytics tools and ML integrations for modern platforms.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="text-center section-title">
+        <h2 class="display-5">Core Expertise</h2>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Area 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass portfolio-card h-100 p-4 d-flex flex-column text-center">
+            <div class="mb-4 text-primary">
+              <i class="fa-solid fa-server fa-3x"></i>
+            </div>
+            <h4 class="fw-bold mb-3">Enterprise Architecture</h4>
+            <p class="text-muted small mb-4">Architecting and building scalable backend microservices and RESTful APIs
+              capable of handling high-volume transactions for international enterprise clients.</p>
+            <div class="mt-auto">
+              <span class="skill-tag">PHP/Laravel</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">AWS</span>
+            </div>
+          </div>
+        </div>
+        <!-- Area 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass portfolio-card h-100 p-4 d-flex flex-column text-center">
+            <div class="mb-4 text-primary">
+              <i class="fa-solid fa-layer-group fa-3x"></i>
+            </div>
+            <h4 class="fw-bold mb-3">Full-Stack Platforms</h4>
+            <p class="text-muted small mb-4">Leading the end-to-end development life cycle of robust web platforms,
+              seamlessly integrating advanced frontend frameworks with complex business logic.</p>
+            <div class="mt-auto">
+              <span class="skill-tag">Vue/React</span>
+              <span class="skill-tag">JavaScript ES6+</span>
+              <span class="skill-tag">MVC</span>
+            </div>
+          </div>
+        </div>
+        <!-- Area 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass portfolio-card h-100 p-4 d-flex flex-column text-center">
+            <div class="mb-4 text-primary">
+              <i class="fa-solid fa-shield-halved fa-3x"></i>
+            </div>
+            <h4 class="fw-bold mb-3">Secure Infrastructure</h4>
+            <p class="text-muted small mb-4">Designing zero-trust network configurations, implementing CI/CD pipelines,
+              and conducting rigorous security audits to ensure cloud safety and compliance.</p>
+            <div class="mt-auto">
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Cybersecurity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Education -->
+  <section id="experience">
+    <div class="container">
+      <div class="row">
+        <!-- Experience Column -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h3 class="mb-5 d-flex align-items-center"><i class="fa-solid fa-briefcase text-primary me-3"></i>
+            Professional Experience</h3>
+          <div class="timeline mt-4">
+            <div class="timeline-item">
+              <h5 class="fw-bold mb-1">Senior Software Engineer</h5>
+              <p class="text-primary fw-semibold mb-2">Epit Global (Pvt) Ltd | Apr 2024 – Present</p>
+              <p class="text-muted small">
+                Spearhead large-scale web app development. Architect scalable backend services via PHP/Laravel & REST
+                APIs. Drive architecture decisions, CI/CD pipelines, and manage cloud AWS deployments.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h5 class="fw-bold mb-1">Full Stack Web Developer</h5>
+              <p class="text-primary fw-semibold mb-2">Yogeemedia (Pvt) Ltd | Oct 2020 – Jan 2024</p>
+              <p class="text-muted small">
+                Engineered production-grade apps. Translated UI/UX strategies to responsive frontends. Developed secure
+                PHP/MySQL backend ecosystems for international clients.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h5 class="fw-bold mb-1">Web Developer</h5>
+              <p class="text-primary fw-semibold mb-2">Global EMS (Pvt) Ltd | Jan 2020 – Jul 2020</p>
+              <p class="text-muted small">
+                Developed functional web presences from mockups. Utilized PHP, HTML/CSS, MySQL, and JavaScript logic
+                enhancements.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h5 class="fw-bold mb-1">IT Officer</h5>
+              <p class="text-primary fw-semibold mb-2">Susipvan Higher Education | Nov 2017 – Jan 2020</p>
+              <p class="text-muted small">
+                Managed enterprise network infrastructure, systems performance, and internal software operations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education & Certs -->
+        <div class="col-lg-6">
+          <h3 class="mb-5 d-flex align-items-center"><i class="fa-solid fa-graduation-cap text-primary me-3"></i>
+            Education</h3>
+          <div class="timeline mt-4">
+            <div class="timeline-item">
+              <h5 class="fw-bold mb-1">BSc (Hons) in Software Engineering</h5>
+              <p class="text-primary fw-semibold mb-2">Cardiff Metropolitan University (UK) | Graduated 2026</p>
+              <p class="text-muted small">Second Class Upper Division classification.</p>
+            </div>
+            <div class="timeline-item">
+              <h5 class="fw-bold mb-1">Higher National Diploma in IT</h5>
+              <p class="text-primary fw-semibold mb-2">SLIATE | Graduated 2022</p>
+              <p class="text-muted small">Specialized in Web Application Development.</p>
+            </div>
+            <div class="timeline-item">
+              <h5 class="fw-bold mb-1">Advanced Level (Physical Science)</h5>
+              <p class="text-primary fw-semibold mb-2">Bandaranayaka College, Gampaha | Completed 2017</p>
+            </div>
+          </div>
+
+          <h3 class="mb-4 mt-5 d-flex align-items-center"><i class="fa-solid fa-certificate text-primary me-3"></i>
+            Certifications</h3>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="glass p-3 h-100 text-center">
+                <i class="fa-brands fa-google text-primary fa-2x mb-2"></i>
+                <h6 class="fw-bold">Google Cybersecurity</h6>
+                <p class="small text-muted mb-0">Professional Certificate</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="glass p-3 h-100 text-center">
+                <i class="fa-brands fa-python text-primary fa-2x mb-2"></i>
+                <h6 class="fw-bold">Python Bootcamp (Data/ML)</h6>
+                <p class="small text-muted mb-0">Udemy</p>
+              </div>
+            </div>
+            <div class="col-sm-6 text-center">
+              <div class="glass p-3 h-100 text-center">
+                <i class="fa-brands fa-js text-primary fa-2x mb-2"></i>
+                <h6 class="fw-bold">JS Algorithms & Structs</h6>
+                <p class="small text-muted mb-0">freeCodeCamp</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fun Facts / Metrics Section -->
+  <section id="metrics" class="py-5">
+    <div class="container pb-5">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3">
+          <div class="glass p-4 h-100">
+            <h3 class="display-5 fw-bold text-primary mb-0">5<span class="fs-4">+</span></h3>
+            <p class="text-muted small fw-semibold mt-2 mb-0 text-uppercase tracking-wide">Years Experience</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="glass p-4 h-100">
+            <h3 class="display-5 fw-bold text-primary mb-0">50<span class="fs-4">+</span></h3>
+            <p class="text-muted small fw-semibold mt-2 mb-0 text-uppercase tracking-wide">Projects Done</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="glass p-4 h-100">
+            <h3 class="display-5 fw-bold text-primary mb-0">20<span class="fs-4">+</span></h3>
+            <p class="text-muted small fw-semibold mt-2 mb-0 text-uppercase tracking-wide">Satisfied Clients</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="glass p-4 h-100">
+            <h3 class="display-5 fw-bold text-primary mb-0">100<span class="fs-4">+</span></h3>
+            <p class="text-muted small fw-semibold mt-2 mb-0 text-uppercase tracking-wide">Contributions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="pb-5">
+    <div class="container mb-5">
+      <div class="glass p-5 text-center mx-auto" style="max-width: 900px;">
+        <h2 class="display-6 fw-bold mb-4">Let's Work Together!</h2>
+        <p class="text-muted mb-5 fs-5">
+          I'm always open to discussing web application development work or partnership opportunities. Feel free to get
+          in touch.
+        </p>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-4">
+            <div class="p-3">
+              <i class="fa-solid fa-envelope text-primary fa-2x mb-3"></i>
+              <h5 class="fw-bold">Email</h5>
+              <a href="mailto:kasun961224@gmail.com" class="text-muted text-break">kasun961224@gmail.com</a>
+            </div>
+          </div>
+          <div class="col-md-4 border-md-start border-md-end">
+            <div class="p-3">
+              <i class="fa-solid fa-phone text-primary fa-2x mb-3"></i>
+              <h5 class="fw-bold">Phone</h5>
+              <a href="tel:+94773842820" class="text-muted">+94 77 384 2820</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3">
+              <i class="fa-solid fa-share-nodes text-primary fa-2x mb-3"></i>
+              <h5 class="fw-bold">Network</h5>
+              <div class="d-flex justify-content-center gap-2 flex-wrap" style="max-width: 250px; margin: 0 auto;">
+                <a href="https://www.linkedin.com/in/kasun24/" target="_blank" class="text-muted theme-switch px-1"><i
+                    class="fa-brands fa-linkedin fa-lg"></i></a>
+                <a href="https://github.com/Kasun24" target="_blank" class="text-muted theme-switch px-1"><i
+                    class="fa-brands fa-github fa-lg"></i></a>
+                <a href="https://www.facebook.com/kasun.sampath.430009/" target="_blank"
+                  class="text-muted theme-switch px-1"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                <a href="https://www.instagram.com/kasun24_/" target="_blank" class="text-muted theme-switch px-1"><i
+                    class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="https://www.tiktok.com/@kasun24_" target="_blank" class="text-muted theme-switch px-1"><i
+                    class="fa-brands fa-tiktok fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-dark text-white border-top border-secondary">
+    <div class="container">
+      <p class="mb-0 text-white-50 small">&copy;
+        <script>document.write(new Date().getFullYear())</script> Kasun Sampath. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap 5 JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Typed.js -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Custom Script -->
+  <script src="js/script.js"></script>
 </body>
 
 </html>
